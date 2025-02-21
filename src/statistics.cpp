@@ -33,7 +33,7 @@ const char* Min::name() const
 
 
 Max::Max() :
-	m_max{std::numeric_limits<double>::min()}
+	m_max{std::numeric_limits<double>::lowest()}
 {
 
 }
